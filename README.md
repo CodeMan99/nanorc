@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/CodeMan99/nanorc.png?label=ready&title=Ready)](https://waffle.io/CodeMan99/nanorc)
 Improved Nano Syntax Highlighting Files
 =======================================
 
