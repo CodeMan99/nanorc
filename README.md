@@ -1,6 +1,11 @@
 Improved Nano Syntax Highlighting Files
 =======================================
 
+Waffle Counts:
+[![Ready](https://badge.waffle.io/CodeMan99/nanorc.png?label=ready&title=Ready)](https://waffle.io/CodeMan99/nanorc)
+[![In Progress](https://badge.waffle.io/CodeMan99/nanorc.png?label=in-progress&title=In-Review)](https://waffle.io/CodeMan99/nanorc)
+[![In Review](https://badge.waffle.io/CodeMan99/nanorc.png?label=in-review&title=In-Review)](https://waffle.io/CodeMan99/nanorc)
+
 This repository holds ``{lang}.nanorc`` files that have improved
 definitions of syntax highlighting for various languages.
 These should be placed inside of the ``~/.nano/syntax`` directory.
