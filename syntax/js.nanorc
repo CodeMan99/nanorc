@@ -32,8 +32,12 @@ color green "\<(switch|this|throw|try|typeof|undefined|var|void|while|with|let|c
 
 ## Type specifiers
 color red "\<(Array|Boolean|Date|Enumerator|Error|Function|Math)\>"
-color red "\<(Number|Object|RegExp|String)\>"
+color red "\<(Number|Object|RegExp|String|NaN|Infinity)\>"
 color red "\<(true|false)\>"
+
+## Comments
+color brightblue start="/\*+(\s|$)" end="\*/"
+color brightblue "//.*$"
 
 ## String
 color brightyellow "L?\"(\\"|[^"])*\""
@@ -41,10 +45,6 @@ color brightyellow "L?'(\'|[^'])*'"
 
 ## Escapes
 color red "\\[0-7][0-7]?[0-7]?|\\x[0-9a-fA-F]+|\\[bfnrt'"\?\\]"
-
-## Comments
-color brightblue start="/\*+(\s|$)" end="\*/"
-color brightblue "//.*$"
 
 ## Trailing Whitespace
 color ,green "[[:space:]]+$"
