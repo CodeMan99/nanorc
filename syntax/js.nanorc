@@ -27,7 +27,7 @@ color yellow "\<[-+]?([0-9]+[EePp][+-]?[0-9]+)[fFlL]?"
 
 ## Keywords
 color green "\<(break|case|catch|continue|default|delete|do|else|finally)\>"
-color green "\<(for|function|if|in|instanceof|new|null|return|switch)\>"
+color green "\<(for|function|if|in|instanceof|new|null|return|switch|of)\>"
 color green "\<(switch|this|throw|try|typeof|undefined|var|void|while|with|let|const)\>"
 
 ## Type specifiers
