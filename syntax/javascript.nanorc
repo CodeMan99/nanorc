@@ -5,10 +5,12 @@ color blue   "\<[-+]?([1-9][0-9]*|0[0-7]*|0x[0-9a-fA-F]+)([uU][lL]?|[lL][uU]?)?\
 color blue   "\<[-+]?([0-9]+\.[0-9]*|[0-9]*\.[0-9]+)([EePp][+-]?[0-9]+)?[fFlL]?"
 color blue   "\<[-+]?([0-9]+[EePp][+-]?[0-9]+)[fFlL]?"
 color brightblue "[A-Za-z_][A-Za-z0-9_]*[[:space:]]*[(]"
-color cyan  "\<(break|case|catch|continue|default|delete|do|else|finally)\>"
-color cyan  "\<(for|function|get|if|in|instanceof|new|return|set|switch|of)\>"
-color cyan  "\<(switch|this|throw|try|typeof|var|void|while|with|let|const)\>"
-color cyan  "\<(null|undefined|NaN)\>"
+color cyan "\<(break|case|catch|class|const|continue|debugger|default|delete|do|else)\>"
+color cyan "\<(export|extends|finally|for|function|get|if|import|in|instanceof|new)\>"
+color cyan "\<(return|of|super|set|switch|this|throw|try|typeof|var|void|while|with)\>"
+color cyan "\<(as|async|await|const|from|let|null|static|undefined|yield|NaN)\>"
+## enum|implements|interface|package|private|protected|public
+## abstract|boolean|byte|char|double|final|float|goto|int|long|native|short|synchronized|throws|transient|volatile
 color brightcyan "\<(true|false)\>"
 color green     "\<(Array|Boolean|Date|Enumerator|Error|Function|Math)\>"
 color green     "\<(Number|Object|RegExp|String)\>"
